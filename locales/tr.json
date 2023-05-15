@@ -1,0 +1,55 @@
+{
+  "home": {
+    "title1": "Anasayfa",
+    "title2": "Kurumsal",
+    "title3": "Ürünler",
+    "title4": "Sertifikalar",
+    "title5": "İletişim",
+    "desBtn": "Keşfedin",
+    "card1": "Magnezyum Külçe",
+    "card1Desc": "Magnezyum külçe, hafif ve sert bir metaldir ve kimyasal sembolü 'Mg' ile ifade edilir. Doğada, genellikle ...",
+    "card1DescLong": "Magnezyum, hafif ve sert bir metaldir ve kimyasal sembolü 'Mg' ile ifade edilir.  Doğada, genellikle magnezyum karbonat veya magnezyum klorür bileşikleri olarak bulunur. Birçok endüstride kullanılan stratejik bir metaldir.Yüksek sıcaklıklarda üretilir ve özellikle havacılık, otomotiv, kimya, cam, seramik ve ilaç endüstrilerinde kullanılır.\n\nMagnezyum külçeler, yüksek sıcaklıklarda üretilir ve çeşitli endüstrilerde kullanılır. Özellikle havacılık ve otomotiv endüstrilerinde yaygın olarak kullanılır. Bunun nedeni, magnezyumun hafifliği ve mukavemeti nedeniyle araçların ağırlığını azaltarak performansını artırmasıdır. Ayrıca kimya endüstrisinde de kullanılır. Magnezyum tozları, ateşleme sıvısı olarak kullanılabilir. Ayrıca, magnezyum oksit ve magnezyum hidroksit gibi magnezyum bileşikleri, cam, seramik ve ilaç endüstrilerinde yaygın olarak kullanılmaktadır.\n\nMalzeme, doğru şekilde depolandığında ve kullanıldığında güvenli bir şekilde kullanılabilir. Ancak, yanıcıdır ve yanma süreci sırasında yüksek sıcaklıklar açığa çıkarır.",
+    "btnMore": "Daha Fazlası",
+    "card2": "Alüminyum Billet",
+    "card2Desc": "Billet üretiminde, homojenizasyon ve döküm prosesleri ileri teknolojileri ve ekipmanlar kullanılarak yapılmaktadır...",
+    "card2DescLong": "Proses;\nErgitme – Alaşımlandırma – Gaz Giderme – Filtrasyon Döküm – Boy Kesim – Homojenizasyon – Soğutma ve Paketleme.\n\nÜretilen billetler: 127″, 152″, 178″, 203″ çapında max 6.000 mm uzunluğunda olup, standart alaşımların (1050, 1070, 6060, 6063, 6463, 6005 ve 6082) yanı sıra müşteri talebine göre de alaşımlandırma yapılabilmekte.",
+
+    "card3": "Alüminyum Külçe",
+    "card3Desc": "Alüminyum külçe, alüminyum metali eritilerek kalıplara dökülerek üretilir. Kimyasal sembolü 'Al' olan ...",
+    "card3DescLong": "Alüminyum külçe, alüminyum metali eritilerek kalıplara dökülerek üretilir. Kimyasal sembolü 'Al' olan alüminyum, hafif ve mukavemetli bir metaldir. Doğada alüminyum, bauxit adı verilen mineralin içinde bulunur.\n\nAlüminyum külçeler, birçok endüstride kullanılan stratejik bir malzemedir. Özellikle, otomotiv, havacılık, inşaat, ambalaj ve elektronik endüstrilerinde yaygın olarak kullanılır. Bunun nedeni, alüminyumun hafifliği, dayanıklılığı ve korozyona karşı direncidir. Ayrıca, geri dönüştürülebilir bir malzeme olarak da bilinir. Geri dönüştürülen alüminyum, düşük enerji tüketimi ve çevre dostu bir üretim süreci sayesinde, yeniden kullanılabilir.\n\nMalzemenin özellikleri, alaşımlarının bileşimine bağlı olarak değişebilir. Farklı alaşımlar, alüminyumun özelliklerini geliştirerek, belirli uygulamalara uygun hale getirir.\n\nSonuç olarak, alüminyum külçeleri, hafif, mukavemetli ve geri dönüştürülebilir bir malzemedir. Çeşitli endüstrilerde kullanılır ve alaşımlarının bileşimine göre özellikleri değişebilir. Alüminyum, çevre dostu bir üretim süreciyle geri dönüştürülebilir bir malzeme olduğu için, sürdürülebilir bir gelecek için önemlidir.",
+    "card4": "Alüminyum Yarım Küre",
+    "card4Desc": "Alüminyum deoksidant, eritilen metaldeki oksijeni indirgemek için kullanılır. Bu, eriyik metallerin daha homojen ...",
+    "card4DescLong": "Alüminyum deoksidant, eritilen metaldeki oksijeni indirgemek için kullanılır. Bu, eriyik metallerin daha homojen bir şekilde akması ve daha az gaz üretmesi için gereklidir.\n\nKullanım alanları arasında çelik ve diğer alaşımların üretimi, çimento üretimi ve refrakter malzemelerin yapımı bulunur. Ayrıca yangın söndürme sistemlerinde kullanılır. Üstün Teknoloji İle Alüminyum Yarımküre, piramit şekilde, müşterilerimizin gereksinim duyduğu miktarlarda deoksidant maddelerin üretimi yapılmaktadır.",
+    "cardBig": "ADSS, Şirketimiz kuruluşundan bu yana başarı ile sunduğu ve geliştirdiği hizmetler sayesinde yerel, bölgesel ve ulusal düzeyde önemli başarılara adını yazdırmış ve ülke ekonomisine büyük katkılar sağlamıştır.\n\nADSS, Çalışmalarında kaliteyi sürekli iyileştirmeyi ve başarılarını sürekli kılmayı hedefleyen şirketimiz, kurumsal yapısı içinde ISO 9001:2000 Kalite Yönetim Sistemi’ni uygulamaktadır.\n\nKuruluşundan bu yana kalite ve hizmet ilkesinden ödün vermeyen ADSS, yurtiçi ve yurtdışı pazarında kendini kanıtlamıştır ve ülke ekonomisine büyük katkılar sağlayan önemli ihracat projelerine imza atmıştır.",
+    "description": "Farklı İsteklere Profesyonel Çözümler",
+    "descriptionLong": "xx yıllık deneyimimiz ile kalite ve\nhizmet ilkesinden ödün vermeden\nprofesyonel çözümler üretiyoruz.",
+    "subTitle": "Adds Hakkında",
+    "subTitle1": "Misyon / Vizyon",
+    "subTitle2": "Referanslar",
+    "subTitle3": "Bilgi Güvenliği Politikası",
+    "subTitle4": "Kişisel Verilerin Korunması Politikası",
+    "subTitle5": "Çerez Politikası",
+    "subTitle6": "Bize Ulaşın",
+    "subTitle7": "Gönder",
+    "missionLong": "Adss Alüminyum Metal olarak, yüksek kaliteli ve çevre dostu alüminyum ve magnezyum ürünleri sunarak müşterilerimizin ihtiyaçlarını karşılamayı ve sürdürülebilir bir gelecek için sorumluluk almayı taahhüt ediyoruz. Bu doğrultuda, sürekli olarak işimizi geliştirmek için çaba gösteriyoruz ve çevre dostu üretim yöntemleri kullanarak çevresel etkimizi en aza indiriyoruz. Ayrıca, çalışanlarımızın yeteneklerini geliştirerek, müşterilerimize en iyi hizmeti sunmalarını sağlıyor ve tüm paydaşlarımızın ihtiyaçlarını karşılamak için şeffaf, dürüst ve adil bir şekilde faaliyet gösteriyoruz.",
+    "vissionLong": "ADSS, Alüminyum Metal olarak, alüminyum ve magnezyum sektöründe lider bir konuma sahip olmak için çalışıyoruz. Müşterilerimiz için sürekli olarak yenilikçi ve gelişen çözümler sunarak, sektörde saygın ve güvenilir bir şirket olarak tanınmayı hedefliyoruz.",
+    "mission": "Misyon",
+    "vision": "Vizyon"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "ADSS, Şirketimiz kuruluşundan bu yana başarı ile sunduğu ve geliştirdiği hizmetler sayesinde yerel, bölgesel ve ulusal düzeyde önemli başarılara adını yazdırmış ve ülke ekonomisine büyük katkılar sağlamıştır. Bu başarının ve gelişimin arkasında nitelikli insan kaynağımız, bilgi birikimimiz ve güvene dayalı iş ilişkilerimiz yer almaktadır. İşbirliği içerisinde olduğumuz tüm kurum ve kuruluşlarla tesis etmiş olduğumuz karşılıklı güven, çalışma anlayışımızın en önemli değerini oluşturmaktadır. Güvene dayalı güçlü ilişkilerimizin bundan sonraki süreçte de tüm paydaşlarımız ile sürdürülmesi en önemli gayretimiz olacaktır.\n\nADSS, Çalışmalarında kaliteyi sürekli iyileştirmeyi ve başarılarını sürekli kılmayı hedefleyen şirketimiz, kurumsal yapısı içinde ISO 9001:2000 Kalite Yönetim Sistemi’ni uygulamaktadır.\n\nKuruluşundan bu yana kalite ve hizmet ilkesinden ödün vermeyen ADSS, yurtiçi ve yurtdışı pazarında kendini kanıtlamıştır ve ülke ekonomisine büyük katkılar sağlayan önemli ihracat projelerine imza atmıştır.\n\nBu anlayış çerçevesinde tutkuyla bağlı olduğumuz işimizi, insanımıza modern yaşam biçimleri, şehrimize ve ülkemize de model yaşam alanları sunmanın çabası içinde yürütüyoruz.",
+    "mision": "Adss Alüminyum Metal olarak, yüksek kaliteli ve çevre dostu alüminyum ve magnezyum ürünleri sunarak müşterilerimizin ihtiyaçlarını karşılamayı ve sürdürülebilir bir gelecek için sorumluluk almayı taahhüt ediyoruz. Bu doğrultuda, sürekli olarak işimizi geliştirmek için çaba gösteriyoruz ve çevre dostu üretim yöntemleri kullanarak çevresel etkimizi en aza indiriyoruz. Ayrıca, çalışanlarımızın yeteneklerini geliştirerek, müşterilerimize en iyi hizmeti sunmalarını sağlıyor ve tüm paydaşlarımızın ihtiyaçlarını karşılamak için şeffaf, dürüst ve adil bir şekilde faaliyet gösteriyoruz.",
+    "vision": "ADSS, Alüminyum Metal olarak, alüminyum ve magnezyum sektöründe lider bir konuma sahip olmak için çalışıyoruz. Müşterilerimiz için sürekli olarak yenilikçi ve gelişen çözümler sunarak, sektörde saygın ve güvenilir bir şirket olarak tanınmayı hedefliyoruz."
+  },
+  "product": {
+    "magnesiumIngot": "Magnezyum Külçe",
+    "billet": "Alüminyum Billet",
+    "ingot": "Alüminyum Külçe",
+    "semishp": "Alüminyum Yarım Küre"
+  },
+  "sertificates": {
+    "sertificate": "Sertifikalar",
+    "prc": "Ödüller"
+  }
+}
