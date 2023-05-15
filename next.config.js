@@ -8,8 +8,8 @@ module.exports = module.exports = {
     // output seçeneğini "export" olarak ayarla
     export: {},
   },
-  i18n: {
-    locales: ["tr-TR", "en-EN", "de-DE", "nl-NL", "it-IT"],
-    defaultLocale: "tr-TR",
-  },
+  // i18n: {
+  //   locales: ["tr-TR", "en-EN", "de-DE", "nl-NL", "it-IT"],
+  //   defaultLocale: "tr-TR",
+  // },
 };
