@@ -12,4 +12,7 @@ module.exports = module.exports = {
   //   locales: ["tr-TR", "en-EN", "de-DE", "nl-NL", "it-IT"],
   //   defaultLocale: "tr-TR",
   // },
+  images: {
+    unoptimized: true,
+  },
 };
