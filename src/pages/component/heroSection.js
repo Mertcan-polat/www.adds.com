@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mgFirst from "../images/mgFirst.svg";
+import mgFirst from "../images/mgFr.png";
 import albillet from "../images/albillet.svg";
 import kureal from "../images/kureal.svg";
 import mgkul from "../images/mgkul.svg";

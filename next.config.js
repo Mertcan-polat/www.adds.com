@@ -9,7 +9,7 @@ module.exports = module.exports = {
     export: {},
   },
   i18n: {
-    locales: ["tr-TR", "en-EN", "de-DE", "nl-NL", "it-IT"],
-    defaultLocale: "tr-TR",
+    locales: ["tr", "en", "de", "nl", "it"],
+    defaultLocale: "tr",
   },
 };
