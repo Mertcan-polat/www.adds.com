@@ -35,12 +35,12 @@ const content = () => {
         className="w-full z-0 relative"
       />
       <div className="absolute top-[10%] md:top-[22%] lg:top-[40%] ml-12">
-        <h1 className="font-bold md:text-xl lg:text-2xl mt-3">
+        <h1 className="font-bold md:text-xl text-black lg:text-2xl mt-3">
           {t.home.description}{" "}
         </h1>
-        <h5 className="mt-4">{t.home.descriptionLong}</h5>
-        <div className="flex md:font-semibold mt-5">
-          {t.home.desBtn} <BsArrowRight className=" mt-[7px] ml-2" />
+        <h5 className="mt-4 text-black">{t.home.descriptionLong}</h5>
+        <div className="flex md:font-semibold text-black mt-5">
+          {t.home.desBtn} <BsArrowRight className=" mt-[7px] text-black ml-2" />
         </div>
       </div>
 

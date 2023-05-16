@@ -33,7 +33,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-x-5 p-10 gap-y-3 ">
-        <div className="bg-gray-200 rounded-md p-4">
+        <div className="bg-gray-200 dark:bg-slate-900 rounded-md p-4">
           <Image
             src={mgFirst}
             alt="Picture of the author"
