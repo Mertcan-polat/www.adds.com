@@ -34,6 +34,8 @@
     "subTitle5": "Cookie-Richtlinie",
     "subTitle6": "Kontaktieren Sie uns",
     "subTitle7": "Senden",
+    "subTitle8": "Dienste der Informationsgesellschaftw",
+
     "missionLong": "Als ADSS Aluminium Metal sind wir bestrebt, den Bedürfnissen unserer Kunden gerecht zu werden, indem wir hochwertige und umweltfreundliche Aluminium- und Magnesiumprodukte bereitstellen und Verantwortung für eine nachhaltige Zukunft übernehmen. In diesem Sinne streben wir ständig danach, unser Geschäft zu verbessern und unseren Umwelteinfluss durch den Einsatz umweltfreundlicher Produktionsmethoden zu minimieren. Darüber hinaus stellen wir durch die Entwicklung der Fähigkeiten unserer Mitarbeiter sicher, dass sie den besten Service für unsere Kunden bieten und transparent, ehrlich und fair agieren, um die Bedürfnisse aller unserer Stakeholder zu erfüllen.",
     "vissionLong": "ADSS arbeitet als Aluminium-Metall daran, eine führende Position in der Aluminium- und Magnesiumindustrie zu erreichen. Unser Ziel ist es, als angesehenes und zuverlässiges Unternehmen in der Branche anerkannt zu werden, indem wir unseren Kunden kontinuierlich innovative und sich weiterentwickelnde Lösungen bieten.",
     "mission": "Mission",
@@ -50,6 +52,13 @@
     "billet": "Aluminiumstrang",
     "ingot": "Aluminiumbarren",
     "semishp": "Halbkugel aus Aluminium"
+  },
+  "languages": {
+    "lang1": "Türkisch",
+    "lang2": "Englisch",
+    "lang3": "Deutsch",
+    "lang4": "Flämisch / Niederländisch",
+    "lang5": "Italienisch"
   },
   "sertificates": {
     "sertificate": "Zertifikate",

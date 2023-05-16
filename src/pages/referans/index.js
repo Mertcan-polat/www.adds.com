@@ -28,28 +28,28 @@ const index = () => {
 
       <div className="relative">
         <Image src={Referans} alt="Picture of the author" className="w-full" />
-        <div class="absolute md:flex md:justify-around flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
+        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
           <Link
             href="/about"
-            className={`${isActivePage("/about")} hidden md:inline-block`}
+            className={`${isActivePage("/about")}  md:inline-block`}
           >
             Adds Hakkında
           </Link>
           <Link
             href="/misyon"
-            className={`${isActivePage("/misyon")} hidden md:inline-block`}
+            className={`${isActivePage("/misyon")}  md:inline-block`}
           >
             Misyon / Vizyon
           </Link>
-          <Link
+          {/* <Link
             href="/referans"
             className={`${isActivePage("/referans")}  mx-auto md:mx-0`}
           >
             Referanslar
-          </Link>
+          </Link> */}
           <Link
             href="/bth"
-            className={`${isActivePage("/bth")} hidden md:inline-block`}
+            className={`${isActivePage("/bth")}  md:inline-block`}
           >
             Bilgi Toplumu Hizmetleri
           </Link>

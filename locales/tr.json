@@ -22,7 +22,7 @@
     "card4DescLong": "Alüminyum deoksidant, eritilen metaldeki oksijeni indirgemek için kullanılır. Bu, eriyik metallerin daha homojen bir şekilde akması ve daha az gaz üretmesi için gereklidir.\n\nKullanım alanları arasında çelik ve diğer alaşımların üretimi, çimento üretimi ve refrakter malzemelerin yapımı bulunur. Ayrıca yangın söndürme sistemlerinde kullanılır. Üstün Teknoloji İle Alüminyum Yarımküre, piramit şekilde, müşterilerimizin gereksinim duyduğu miktarlarda deoksidant maddelerin üretimi yapılmaktadır.",
     "cardBig": "ADSS, Şirketimiz kuruluşundan bu yana başarı ile sunduğu ve geliştirdiği hizmetler sayesinde yerel, bölgesel ve ulusal düzeyde önemli başarılara adını yazdırmış ve ülke ekonomisine büyük katkılar sağlamıştır.\n\nADSS, Çalışmalarında kaliteyi sürekli iyileştirmeyi ve başarılarını sürekli kılmayı hedefleyen şirketimiz, kurumsal yapısı içinde ISO 9001:2000 Kalite Yönetim Sistemi’ni uygulamaktadır.\n\nKuruluşundan bu yana kalite ve hizmet ilkesinden ödün vermeyen ADSS, yurtiçi ve yurtdışı pazarında kendini kanıtlamıştır ve ülke ekonomisine büyük katkılar sağlayan önemli ihracat projelerine imza atmıştır.",
     "description": "Farklı İsteklere Profesyonel Çözümler",
-    "descriptionLong": "xx yıllık deneyimimiz ile kalite ve\nhizmet ilkesinden ödün vermeden\nprofesyonel çözümler üretiyoruz.",
+    "descriptionLong": "Kalite ve hizmet ilkesinden ödün vermeden\nprofesyonel çözümler üretiyoruz.",
     "subTitle": "Adds Hakkında",
     "subTitle1": "Misyon / Vizyon",
     "subTitle2": "Referanslar",
@@ -31,6 +31,8 @@
     "subTitle5": "Çerez Politikası",
     "subTitle6": "Bize Ulaşın",
     "subTitle7": "Gönder",
+    "subTitle8": "Bilgi Toplumu Hizmetleri",
+
     "missionLong": "Adss Alüminyum Metal olarak, yüksek kaliteli ve çevre dostu alüminyum ve magnezyum ürünleri sunarak müşterilerimizin ihtiyaçlarını karşılamayı ve sürdürülebilir bir gelecek için sorumluluk almayı taahhüt ediyoruz. Bu doğrultuda, sürekli olarak işimizi geliştirmek için çaba gösteriyoruz ve çevre dostu üretim yöntemleri kullanarak çevresel etkimizi en aza indiriyoruz. Ayrıca, çalışanlarımızın yeteneklerini geliştirerek, müşterilerimize en iyi hizmeti sunmalarını sağlıyor ve tüm paydaşlarımızın ihtiyaçlarını karşılamak için şeffaf, dürüst ve adil bir şekilde faaliyet gösteriyoruz.",
     "vissionLong": "ADSS, Alüminyum Metal olarak, alüminyum ve magnezyum sektöründe lider bir konuma sahip olmak için çalışıyoruz. Müşterilerimiz için sürekli olarak yenilikçi ve gelişen çözümler sunarak, sektörde saygın ve güvenilir bir şirket olarak tanınmayı hedefliyoruz.",
     "mission": "Misyon",
@@ -47,6 +49,13 @@
     "billet": "Alüminyum Billet",
     "ingot": "Alüminyum Külçe",
     "semishp": "Alüminyum Yarım Küre"
+  },
+  "languages": {
+    "lang1": "Türkçe",
+    "lang2": "İngilizce",
+    "lang3": "Almanca",
+    "lang4": "Flemenkçe",
+    "lang5": "İtalyanca"
   },
   "sertificates": {
     "sertificate": "Sertifikalar",

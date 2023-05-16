@@ -38,7 +38,7 @@ const index = () => {
 
       <div className="relative">
         <Image src={Misyon} alt="Picture of the author" className="w-full" />
-        <div class="absolute md:flex md:justify-around flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
+        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
           <Link
             href="/about"
             className={`${isActivePage("/about")} hidden md:inline-block `}
@@ -49,7 +49,7 @@ const index = () => {
             href="/misyon"
             className={`${isActivePage("/misyon")} mx-auto md:mx-0`}
           >
-            {t.home.subTitle2}
+            {t.home.subTitle1}
           </Link>
           {/* <Link
             href="/referans"
@@ -61,7 +61,7 @@ const index = () => {
             href="/bth"
             className={`${isActivePage("/bth")} hidden md:inline-block`}
           >
-            {t.home.subTitle4}
+            {t.home.subTitle8}
           </Link>
         </div>
       </div>

@@ -26,7 +26,7 @@
     "cardBig": "Chi siamo ADSS Da quando è stata fondata, la nostra azienda ha avuto successo nel fornire e sviluppare servizi che hanno contribuito in modo significativo al successo a livello locale, regionale e nazionale, apportando un grande contributo all'economia del paese.\n\nADSS si impegna a migliorare continuamente la qualità e a mantenere i suoi successi, applicando all'interno della sua struttura aziendale il sistema di gestione della qualità ISO 9001:2000.\n\nFin dalla sua fondazione, ADSS si è sempre attenuta ai principi di qualità e servizio, dimostrandosi e realizzando importanti progetti di esportazione che hanno contribuito in modo significativo all'economia del paese.",
 
     "description": "Soluzioni Professionali per Diverse Esigenze",
-    "descriptionLong": " Con xx anni di esperienza,\n offriamo soluzioni professionali senza compromessi in\n termini di qualità e servizio.",
+    "descriptionLong": "Produciamo soluzioni professionali\nsenza compromettere i\nprincipi di qualità e servizio.",
     "subTitle": "Informazioni su ADSS",
     "subTitle1": "Missione e Visione",
     "subTitle2": "Referenze",
@@ -35,6 +35,8 @@
     "subTitle5": "Politica dei Cookie",
     "subTitle6": "Contattaci",
     "subTitle7": "Verstuur",
+    "subTitle8": "Servizi della società dell'informazione",
+
     "missionLong": "Come ADSS Metallo di Alluminio, ci impegniamo a fornire prodotti di alluminio e magnesio di alta qualità e ecologici per soddisfare le esigenze dei nostri clienti e assumerci la responsabilità di un futuro sostenibile. In questo contesto, ci sforziamo costantemente di migliorare il nostro lavoro e ridurre al minimo il nostro impatto ambientale utilizzando metodi di produzione ecologici. Inoltre, garantiamo che i nostri dipendenti sviluppino le proprie competenze per offrire il miglior servizio ai nostri clienti e operiamo in modo trasparente, onesto ed equo per soddisfare le esigenze di tutti i nostri stakeholder.",
     "vissionLong": "ADSS, come Metallo di Alluminio, si impegna a raggiungere una posizione di leadership nel settore dell'alluminio e del magnesio. Miriamo a essere riconosciuti come un'azienda rispettata e affidabile nel settore, offrendo soluzioni innovative e in continua evoluzione per i nostri clienti.",
     "mission": "Missione",
@@ -51,6 +53,13 @@
     "billet": "Billette di Alluminio",
     "ingot": "Lingotto di Alluminio",
     "semishp": "Emisfero di Alluminio"
+  },
+  "languages": {
+    "lang1": "Turco",
+    "lang2": "Inglese",
+    "lang3": "Tedesco",
+    "lang4": "Olandese / Fiammingo",
+    "lang5": "Italiano"
   },
   "certificates": {
     "certificate": "Certificati",

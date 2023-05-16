@@ -22,7 +22,7 @@
     "card4DescLong": "Aluminum deoxidizer is used to reduce the oxygen content in the molten metal. This is necessary for the smoother flow of molten metals and the production of fewer gases. Its applications include steel and other alloy production, cement production, and the manufacture of refractory materials. It is also used in fire suppression systems. With advanced technology, we produce deoxidizer substances in pyramid shape according to the quantities required by our customers.",
     "cardBig": "ADSS, with its successful services and developments since its establishment, has made a name for itself in local, regional, and national levels and has made significant contributions to the country's economy.\n\nADSS aims to continuously improve quality and sustain its achievements within its corporate structure by implementing the ISO 9001:2000 Quality Management System.\n\nSince its establishment, ADSS has remained committed to the principles of quality and service, and has proven itself in both domestic and international markets, undertaking important export projects that have made significant contributions to the country's economy.",
     "description": "Professional Solutions for Different Demands",
-    "descriptionLong": " With xx years of experience,\nwe provide professional solutions without\ncompromising on quality and service.",
+    "descriptionLong": "We provide professional solutions without\ncompromising on quality and service.",
     "subTitle": "About ADSS",
     "subTitle1": "Mission and Vision",
     "subTitle2": "References",
@@ -31,6 +31,8 @@
     "subTitle5": "Cookie Policy",
     "subTitle6": "Contact Us",
     "subTitle7": "Send",
+    "subTitle8": "Information Society Services",
+
     "missionLong": "As ADSS Aluminum Metal, we are committed to meeting our customers' needs by providing high-quality and environmentally friendly aluminum and magnesium products, and taking responsibility for a sustainable future. In this regard, we strive to continuously improve our business and minimize our environmental impact by using environmentally friendly production methods. Additionally, by enhancing the skills of our employees, we ensure that they deliver the best service to our customers, and we operate transparently, honestly, and fairly to meet the needs of all our stakeholders.",
     "vissionLong": "ADSS Aluminum Metal aims to achieve a leading position in the aluminum and magnesium industry. We strive to be recognized as a reputable and reliable company by continuously providing innovative and evolving solutions for our customers.",
     "mission": "Mission",
@@ -47,6 +49,13 @@
     "billet": "Aluminum Billet",
     "ingot": "Aluminum Ingot",
     "semishp": "Aluminum Hemisphere"
+  },
+  "languages": {
+    "lang1": "Turkish",
+    "lang2": "English",
+    "lang3": "German",
+    "lang4": "Dutch / Flemish",
+    "lang5": "Italian"
   },
   "sertificates": {
     "sertificate": "Certificates",

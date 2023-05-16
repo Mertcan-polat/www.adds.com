@@ -21,7 +21,7 @@
     "card4DescLong": "Aluminium deoxidant wordt gebruikt om de zuurstof in gesmolten metaal te verminderen. Dit is nodig voor een meer homogene stroom van het gesmolten metaal en om de gasvorming te verminderen.\n\nToepassingsgebieden zijn onder andere de productie van staal en andere legeringen, de productie van cement en de fabricage van vuurvaste materialen. Het wordt ook gebruikt in brandblussystemen. Met geavanceerde technologie produceert Aluminium Yarımküre deoxidant materialen in piramidevorm, in de hoeveelheden die onze klanten nodig hebben.",
     "cardBig": "ADSS heeft dankzij de succesvolle diensten en ontwikkelingen die het bedrijf sinds de oprichting heeft geleverd, belangrijke prestaties op lokaal, regionaal en nationaal niveau behaald en aanzienlijk bijgedragen aan de economie van het land.\n\nADSS streeft naar voortdurende verbetering van kwaliteit en het handhaven van succes binnen de structuur van ons bedrijf door het toepassen van het ISO 9001:2000-kwaliteitsmanagementsysteem.\n\nADSS heeft sinds de oprichting vastgehouden aan de principes van kwaliteit en service, heeft zich bewezen op zowel binnenlandse als buitenlandse markten en heeft belangrijke exportprojecten uitgevoerd die aanzienlijke bijdragen hebben geleverd aan de economie van het land.",
     "description": "Professionele oplossingen voor verschillende behoeften",
-    "descriptionLong": "Met onze xx jaar ervaring streven wij ernaar om professionele\noplossingen te bieden zonder\nconcessies te doen aan kwaliteit en service.",
+    "descriptionLong": "We produceren professionele\noplossingen zonder concessies te\ndoen aan kwaliteit en service.",
     "subTitle": "Over ADSS",
     "subTitle1": "Missie en Visie",
     "subTitle2": "Referenties",
@@ -30,6 +30,8 @@
     "subTitle5": "Cookiebeleid",
     "subTitle6": "Neem Contact met Ons Op",
     "subTitle7": "Verstuur",
+    "subTitle8": "Informatiemaatschappijdiensten",
+
     "missionLong": "Als Aluminium Metaal is ADSS toegewijd om hoogwaardige en milieuvriendelijke aluminium- en magnesiumproducten aan te bieden om aan de behoeften van onze klanten te voldoen en verantwoordelijkheid te nemen voor een duurzame toekomst. In dit opzicht streven we er voortdurend naar om ons bedrijf te verbeteren en onze ecologische impact te minimaliseren door gebruik te maken van milieuvriendelijke productiemethoden. Daarnaast zorgen we ervoor dat onze medewerkers hun vaardigheden ontwikkelen om de beste service aan onze klanten te bieden en handelen we transparant, eerlijk en rechtvaardig om aan de behoeften van al onze stakeholders te voldoen.",
     "vissionLong": "ADSS werkt als Aluminium Metaal om een leidende positie te bereiken in de aluminium- en magnesiumindustrie. We streven ernaar om erkend te worden als een gerespecteerd en betrouwbaar bedrijf in de sector door voortdurend innovatieve en evoluerende oplossingen te bieden voor onze klanten.",
     "mission": "Missie",
@@ -46,6 +48,13 @@
     "billet": "Aluminium Billet",
     "ingot": "Aluminium Ingot",
     "semishp": "Aluminium Halve Bol"
+  },
+  "languages": {
+    "lang1": "Turks",
+    "lang2": "Engels",
+    "lang3": "Duits",
+    "lang4": "Nederlands / Vlaams",
+    "lang5": "Italiaans"
   },
   "certificates": {
     "certificate": "Certificaten",

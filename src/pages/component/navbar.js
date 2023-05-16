@@ -4,6 +4,12 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/router";
 import Logo from "../images/logo.svg";
+import Eng from "../images/eng.webp";
+import Tr from "../images/tr.png";
+import Du from "../images/du.png";
+import It from "../images/it.png";
+import Nl from "../images/nl.png";
+
 import { useTheme } from "next-themes";
 import { FaChevronDown } from "react-icons/fa";
 import { RiArrowUpSLine } from "react-icons/ri";
@@ -26,8 +32,7 @@ const navbar = () => {
   const router = useRouter();
   const [defaultLocale, setDefaultLocale] = useState(router.locale);
 
-  const changeLanguage = (e) => {
-    const locale = e.target.value;
+  const changeLanguage = (locale) => {
     router.push("/", "/", { locale });
     setDefaultLocale(locale);
   };
@@ -65,7 +70,7 @@ const navbar = () => {
     } else {
       return (
         <IoMdMoon
-          className="w-5 h-5 mr-5 mt-1 text-black"
+          className="w-5 h-5 mr-5 mt-3 text-black"
           role="button"
           onClick={() => setTheme("dark")}
         />
@@ -90,7 +95,7 @@ const navbar = () => {
         </Link>
       </div>
 
-      <ul className="hidden justify-between dark:text-white items-center gap-x-5 font-['Open_Sans'] text-black md:flex">
+      <ul className="hidden justify-between dark:text-white items-center gap-x-5 tracking-wider font-medium text-black md:flex">
         <li>
           <Link
             href="/"
@@ -99,9 +104,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={`font-bold ${
-                router.pathname === "/home" ? "text-white" : ""
-              }`}
+              className={` ${router.pathname === "/home" ? "text-white" : ""}`}
             >
               {t.home.title1}
             </span>
@@ -115,7 +118,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={`font-bold ${
+              className={` ${
                 router.pathname === "/about" ? "text-zinc-600" : ""
               }`}
             >
@@ -132,7 +135,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={`font-bold ${
+              className={` ${
                 router.pathname === "/skills" ? "text-zinc-600" : ""
               }`}
             >
@@ -148,7 +151,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={`font-bold ${
+              className={` ${
                 router.pathname === "/work" ? "text-zinc-600" : ""
               }`}
             >
@@ -164,7 +167,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={`font-bold ${
+              className={` ${
                 router.pathname === "/contact" ? "text-zinc-600" : ""
               }`}
             >
@@ -197,7 +200,7 @@ const navbar = () => {
           />
           <li className="py-1 text-xl mt-10">
             <Link href="/" smooth={true} duration={500}>
-              Anasayfa
+              {t.home.title1}
             </Link>
           </li>
           <li className="py-1 text-xl">
@@ -208,11 +211,11 @@ const navbar = () => {
                 className="collapse-title flex items-center cursor-pointer"
                 onClick={() => setIsOpen1(!isOpen1)}
               >
-                <span className="py-1 text-xl">{t.home.title1}</span>
+                <span className="py-1 text-xl ml-14 mt-2">{t.home.title2}</span>
                 {isOpen1 ? (
-                  <FaChevronDown className="ml-2 transition-transform duration-700 transform" />
+                  <FaChevronDown className="ml-2 mt-2 transition-transform duration-700 transform" />
                 ) : (
-                  <RiArrowUpSLine className="ml-2 transition-transform duration-300 transform" />
+                  <RiArrowUpSLine className="ml-2 mt-2 transition-transform duration-300 transform" />
                 )}
               </label>
               <div className="collapse-content grid grid-cols-1">
@@ -239,11 +242,11 @@ const navbar = () => {
                 className="collapse-title flex items-center cursor-pointer"
                 onClick={() => setIsOpen2(!isOpen2)}
               >
-                <span className="py-1 text-xl">{t.home.title3}</span>
+                <span className="py-1 text-xl ml-14">{t.home.title3}</span>
                 {isOpen2 ? (
-                  <FaChevronDown className="ml-2 transition-transform duration-700 transform" />
+                  <FaChevronDown className="ml-2 mt-2 transition-transform duration-700 transform" />
                 ) : (
-                  <RiArrowUpSLine className="ml-2 transition-transform duration-300 transform" />
+                  <RiArrowUpSLine className="ml-2 mt-2 transition-transform duration-300 transform" />
                 )}
               </label>
               <div className="collapse-content grid grid-col-1">
@@ -262,7 +265,7 @@ const navbar = () => {
               </div>
             </div>
           </li>
-          <li className="py-1 text-xl">
+          <li className="py-1 text-xl mt-3">
             {" "}
             <Link
               href="/sertificates"
@@ -273,9 +276,14 @@ const navbar = () => {
               {t.home.title4}
             </Link>
           </li>
-          <li className="py-1 text-xl">
+          <li className="py-1 text-xl mt-7">
             {" "}
-            <Link href="#" onClick={handleClick} smooth={true} duration={500}>
+            <Link
+              href="/contact"
+              onClick={handleClick}
+              smooth={true}
+              duration={500}
+            >
               {t.home.title5}
             </Link>
           </li>
@@ -284,42 +292,38 @@ const navbar = () => {
       <div className="md:inline-flex hidden relative">
         {themeChange()}
 
-        <select
-          className="dark:text-white focus:outline-none rounded-lg block px-4 py-2 text-sm text-black hover:text-gray-900"
-          value={defaultLocale}
-          onChange={changeLanguage}
-        >
-          <option
-            className="block px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-gray-900"
-            value="tr"
-          >
-            Türkçe
-          </option>
-          <option
-            className="block px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-gray-900"
-            value="en"
-          >
-            İngilizce
-          </option>
-          <option
-            className="block px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-gray-900"
-            value="de"
-          >
-            Almanca
-          </option>
-          <option
-            className="block px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-gray-900"
-            value="it"
-          >
-            İtalyanca
-          </option>{" "}
-          <option
-            className="block px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-gray-900"
-            value="nl"
-          >
-            Flemenkçe
-          </option>
-        </select>
+        <div className="flex cursor-pointer shadow-2xl rounded-full p-1">
+          <Image
+            src={Tr}
+            alt="Turkish Flag"
+            onClick={() => changeLanguage("tr")}
+            className="w-8 h-8 mr-1 rounded-full"
+          />
+          <Image
+            src={Eng}
+            alt="English Flag"
+            onClick={() => changeLanguage("en")}
+            className="w-8 h-8 mr-1 rounded-full"
+          />
+          <Image
+            src={Du}
+            alt="English Flag"
+            onClick={() => changeLanguage("de")}
+            className="w-8 h-8 mr-1 rounded-full"
+          />{" "}
+          <Image
+            src={It}
+            alt="English Flag"
+            onClick={() => changeLanguage("it")}
+            className="w-8 h-8 mr-1 rounded-full"
+          />{" "}
+          <Image
+            src={Nl}
+            alt="English Flag"
+            onClick={() => changeLanguage("nl")}
+            className="w-8 h-8 rounded-full"
+          />
+        </div>
       </div>
     </header>
   );
