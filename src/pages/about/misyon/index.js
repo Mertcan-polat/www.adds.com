@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "../component/navbar";
-import Footer from "../component/footer";
+import Navbar from "../../component/navbar";
+import Footer from "../../component/footer";
 import { useRouter } from "next/router";
-import Misyon from "../images/misyon.svg";
+import Misyon from "../../images/misyon.svg";
 import Image from "next/image";
 import Link from "next/link";
-import tr from "../../../locales/tr";
-import en from "../../../locales/en";
-import nl from "../../../locales/nl";
-import it from "../../../locales/it";
-import de from "../../../locales/de";
+import tr from "../../../../locales/tr";
+import en from "../../../../locales/en";
+import nl from "../../../../locales/nl";
+import it from "../../../../locales/it";
+import de from "../../../../locales/de";
 
 const index = () => {
   const router = useRouter();
@@ -38,16 +38,16 @@ const index = () => {
 
       <div className="relative">
         <Image src={Misyon} alt="Picture of the author" className="w-full" />
-        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
+        <div class="absolute md:flex md:justify-between flex p-3 flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
           <Link
             href="/about"
-            className={`${isActivePage("/about")} hidden md:inline-block `}
+            className={`${isActivePage("/about")} hidden md:inline-block pl-3`}
           >
             {t.home.subTitle}
           </Link>
           <Link
-            href="/misyon"
-            className={`${isActivePage("/misyon")} mx-auto md:mx-0`}
+            href="/about/misyon"
+            className={`${isActivePage("/about/misyon")} mx-auto md:mx-0`}
           >
             {t.home.subTitle1}
           </Link>
@@ -58,8 +58,10 @@ const index = () => {
             Referanslar
           </Link> */}
           <Link
-            href="/bth"
-            className={`${isActivePage("/bth")} hidden md:inline-block`}
+            href="/about/bth"
+            className={`${isActivePage(
+              "/about/bth"
+            )} hidden md:inline-block pr-3`}
           >
             {t.home.subTitle8}
           </Link>

@@ -1,15 +1,14 @@
 import React from "react";
-import Navbar from "../component/navbar";
-import Footer from "../component/footer";
+import Navbar from "../../component/navbar";
+import Footer from "../../component/footer";
 import { useRouter } from "next/router";
-import AlIngot from "../images/alingot.svg";
-import Table from "../images/table3.svg";
-import Table1 from "../images/table4.svg";
-import tr from "../../../locales/tr";
-import en from "../../../locales/en";
-import nl from "../../../locales/nl";
-import it from "../../../locales/it";
-import de from "../../../locales/de";
+import AlIngot from "../../images/alingot.svg";
+import Table from "../../images/mgıngıt.png";
+import tr from "../../../../locales/tr";
+import en from "../../../../locales/en";
+import nl from "../../../../locales/nl";
+import it from "../../../../locales/it";
+import de from "../../../../locales/de";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -48,21 +47,23 @@ const index = () => {
             {t.home.card1}
           </Link>
           <Link
-            href="/al-billet"
-            className={`${isActivePage("/al-billet")} hidden md:inline-block`}
+            href="/products/al-billet"
+            className={`${isActivePage(
+              "/products/al-billet"
+            )} hidden md:inline-block`}
           >
             {t.home.card2}
           </Link>
           <Link
-            href="/al-ingot"
-            className={`${isActivePage("/al-ingot")}  mx-auto md:mx-0`}
+            href="/products/al-ingot"
+            className={`${isActivePage("/products/al-ingot")}  mx-auto md:mx-0`}
           >
             {t.home.card3}
           </Link>
           <Link
-            href="/alhemisphere"
+            href="/products/alhemisphere"
             className={`${isActivePage(
-              "/alhemisphere"
+              "/products/alhemisphere"
             )} hidden md:inline-block`}
           >
             {t.home.card4}
@@ -78,11 +79,6 @@ const index = () => {
         <div className="flex mx-auto ml-4 items-center justify-center">
           <Image
             src={Table}
-            alt="Picture of the author"
-            className="w-fit flex"
-          />
-          <Image
-            src={Table1}
             alt="Picture of the author"
             className="w-fit flex"
           />

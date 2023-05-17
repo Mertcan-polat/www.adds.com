@@ -41,13 +41,15 @@ const index = () => {
         <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
           <Link
             href="/about"
-            className={`${isActivePage("/about")} mx-auto md:mx-0`}
+            className={`${isActivePage("/about")} mx-auto md:mx-0 pl-3`}
           >
             {t.home.subTitle}
           </Link>
           <Link
-            href="/misyon"
-            className={`${isActivePage("/misyon")} hidden md:inline-block`}
+            href="/about/misyon"
+            className={`${isActivePage(
+              "/about/misyon"
+            )} hidden md:inline-block`}
           >
             {t.home.subTitle1}
           </Link>
@@ -58,8 +60,10 @@ const index = () => {
             Referanslar
           </Link> */}
           <Link
-            href="/bth"
-            className={`${isActivePage("/bth")} hidden md:inline-block`}
+            href="/about/bth"
+            className={`${isActivePage(
+              "/about/bth"
+            )} hidden md:inline-block pr-3`}
           >
             {t.home.subTitle8}
           </Link>

@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "../component/navbar";
-import Footer from "../component/footer";
+import Navbar from "../../component/navbar";
+import Footer from "../../component/footer";
 import { useRouter } from "next/router";
-import bth from "../images/bth.svg";
+import bth from "../../images/bth.svg";
 import Image from "next/image";
 import Link from "next/link";
-import tr from "../../../locales/tr";
-import en from "../../../locales/en";
-import nl from "../../../locales/nl";
-import it from "../../../locales/it";
-import de from "../../../locales/de";
+import tr from "../../../../locales/tr";
+import en from "../../../../locales/en";
+import nl from "../../../../locales/nl";
+import it from "../../../../locales/it";
+import de from "../../../../locales/de";
 
 const index = () => {
   const router = useRouter();
@@ -38,16 +38,18 @@ const index = () => {
 
       <div className="relative">
         <Image src={bth} alt="Picture of the author" className="w-full" />
-        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
+        <div class="absolute md:flex md:justify-between p-3 flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
           <Link
             href="/about"
-            className={`${isActivePage("/about")}  hidden md:inline-block`}
+            className={`${isActivePage("/about")}  hidden md:inline-block pl-3`}
           >
             {t.home.subTitle}
           </Link>
           <Link
-            href="/misyon"
-            className={`${isActivePage("/misyon")} hidden md:inline-block`}
+            href="/about/misyon"
+            className={`${isActivePage(
+              "/about/misyon"
+            )} hidden md:inline-block`}
           >
             {t.home.subTitle1}
           </Link>
@@ -58,8 +60,8 @@ const index = () => {
             Referanslar
           </Link> */}
           <Link
-            href="/bth"
-            className={`${isActivePage("/bth")} mx-auto md:mx-0`}
+            href="/about/bth"
+            className={`${isActivePage("/about/bth")} mx-auto md:mx-0 pr-3`}
           >
             {t.home.subTitle8}
           </Link>

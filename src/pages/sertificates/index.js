@@ -64,7 +64,7 @@ const index = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
         <div className="font-light text-xl ml-20">Sertifikalar</div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-20 relative">
@@ -217,7 +217,11 @@ const index = () => {
             </button>
           </div>
         </Modal>
-      </div>
+      </div> */}
+      <div className=" container mx-auto w-[300px] h-[300px]"></div>
+      <span className="font-light flex justify-center items-center text-center text-xl mb-60 ml-20">
+        Coming Soon
+      </span>
 
       <Footer />
     </div>

@@ -79,7 +79,13 @@ const navbar = () => {
   };
 
   const isActivePage = (pathname) => {
-    return router.pathname === pathname ? "text-dark" : "text-dark opacity-60";
+    if (pathname === "/" && router.pathname !== "/") {
+      return "text-dark opacity-40";
+    }
+
+    return router.pathname.includes(pathname)
+      ? "text-dark"
+      : "text-dark opacity-40";
   };
   return (
     <header className="fixed w-full z-10 flex bg-gray-100 dark:bg-gray-900 justify-between items-center px-4 text-gray-300 left-0">
@@ -104,7 +110,7 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={` ${router.pathname === "/home" ? "text-white" : ""}`}
+              className={` ${router.pathname === "/" ? "text-zinc-600" : ""}`}
             >
               {t.home.title1}
             </span>
@@ -136,7 +142,7 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/skills" ? "text-zinc-600" : ""
+                router.pathname === "/products" ? "text-zinc-600" : ""
               }`}
             >
               {t.home.title3}
@@ -152,7 +158,7 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/work" ? "text-zinc-600" : ""
+                router.pathname === "/sertificates" ? "text-zinc-600" : ""
               }`}
             >
               {t.home.title4}
@@ -225,9 +231,9 @@ const navbar = () => {
                 <Link href="/misyon" className="text-sm text-gray-500">
                   {t.home.title3}
                 </Link>
-                <Link href="/referans" className="text-sm text-gray-500">
+                {/* <Link href="/referans" className="text-sm text-gray-500">
                   {t.home.title4}
-                </Link>
+                </Link> */}
                 <Link href="/bth" className="text-sm text-gray-500">
                   {t.home.title5}
                 </Link>

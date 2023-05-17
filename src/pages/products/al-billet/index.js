@@ -1,17 +1,17 @@
 import React from "react";
-import Navbar from "../component/navbar";
-import Footer from "../component/footer";
+import Navbar from "../../component/navbar";
+import Footer from "../../component/footer";
 import { useRouter } from "next/router";
-import Albillet from "../images/albilet1.svg";
-import Table from "../images/table2.svg";
+import Albillet from "../../images/albilet1.svg";
+import Table from "../../images/table2.svg";
 
 import Image from "next/image";
 import Link from "next/link";
-import tr from "../../../locales/tr";
-import en from "../../../locales/en";
-import nl from "../../../locales/nl";
-import it from "../../../locales/it";
-import de from "../../../locales/de";
+import tr from "../../../../locales/tr";
+import en from "../../../../locales/en";
+import nl from "../../../../locales/nl";
+import it from "../../../../locales/it";
+import de from "../../../../locales/de";
 
 const index = () => {
   const router = useRouter();
@@ -48,21 +48,25 @@ const index = () => {
             {t.home.card1}
           </Link>
           <Link
-            href="/al-billet"
-            className={`${isActivePage("/al-billet")}  mx-auto md:mx-0`}
+            href="/products/al-billet"
+            className={`${isActivePage(
+              "/products/al-billet"
+            )}  mx-auto md:mx-0`}
           >
             {t.home.card2}
           </Link>
           <Link
-            href="/al-ingot"
-            className={`${isActivePage("/al-ingot")} hidden md:inline-block`}
+            href="/products/al-ingot"
+            className={`${isActivePage(
+              "/products/al-ingot"
+            )} hidden md:inline-block`}
           >
             {t.home.card3}
           </Link>
           <Link
-            href="alhemisphere"
+            href="/products/alhemisphere"
             className={`${isActivePage(
-              "/alhemisphere"
+              "/products/alhemisphere"
             )} hidden md:inline-block`}
           >
             {t.home.card4}

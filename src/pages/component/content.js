@@ -9,6 +9,7 @@ import en from "../../../locales/en";
 import nl from "../../../locales/nl";
 import it from "../../../locales/it";
 import de from "../../../locales/de";
+import Link from "next/link";
 
 const content = () => {
   const router = useRouter();
@@ -39,9 +40,12 @@ const content = () => {
           {t.home.description}{" "}
         </h1>
         <h5 className="mt-4 text-black">{t.home.descriptionLong}</h5>
-        <div className="flex md:font-semibold text-black mt-5">
+        <Link
+          href={"/products"}
+          className="flex md:font-semibold text-black mt-5"
+        >
           {t.home.desBtn} <BsArrowRight className=" mt-[7px] text-black ml-2" />
-        </div>
+        </Link>
       </div>
 
       <HeroSection />

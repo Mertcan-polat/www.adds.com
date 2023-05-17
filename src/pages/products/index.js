@@ -51,21 +51,25 @@ const index = () => {
             {t.home.card1}
           </Link>
           <Link
-            href="/al-billet"
-            className={`${isActivePage("/al-billet")} hidden md:inline-block`}
+            href="/products/al-billet"
+            className={`${isActivePage(
+              "/products/al-billet"
+            )} hidden md:inline-block`}
           >
             {t.home.card2}
           </Link>
           <Link
-            href="/al-ingot"
-            className={`${isActivePage("/al-ingot")} hidden md:inline-block`}
+            href="/products/al-ingot"
+            className={`${isActivePage(
+              "/products/al-ingot"
+            )} hidden md:inline-block`}
           >
             {t.home.card3}
           </Link>
           <Link
-            href="/alhemisphere"
+            href="/products/alhemisphere"
             className={`${isActivePage(
-              "/alhemisphere"
+              "/products/alhemisphere"
             )} hidden md:inline-block`}
           >
             {t.home.card4}
