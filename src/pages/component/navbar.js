@@ -259,13 +259,22 @@ const navbar = () => {
                 <Link href="/products" className="text-sm text-gray-500">
                   {t.home.card1}
                 </Link>
-                <Link href="/al-billet" className="text-sm text-gray-500">
+                <Link
+                  href="/products/al-billet"
+                  className="text-sm text-gray-500"
+                >
                   {t.home.card2}
                 </Link>
-                <Link href="/al-ingot" className="text-sm text-gray-500">
+                <Link
+                  href="/products/al-ingot"
+                  className="text-sm text-gray-500"
+                >
                   {t.home.card3}
                 </Link>
-                <Link href="/alhemisphere" className="text-sm text-gray-500">
+                <Link
+                  href="/products/alhemisphere"
+                  className="text-sm text-gray-500"
+                >
                   {t.home.card4}
                 </Link>
               </div>
