@@ -228,13 +228,13 @@ const navbar = () => {
                 <Link href="/about" className="text-sm text-gray-500">
                   {t.home.title2}
                 </Link>
-                <Link href="/misyon" className="text-sm text-gray-500">
+                <Link href="/about/misyon" className="text-sm text-gray-500">
                   {t.home.title3}
                 </Link>
                 {/* <Link href="/referans" className="text-sm text-gray-500">
                   {t.home.title4}
                 </Link> */}
-                <Link href="/bth" className="text-sm text-gray-500">
+                <Link href="/about/bth" className="text-sm text-gray-500">
                   {t.home.title5}
                 </Link>
               </div>
