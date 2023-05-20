@@ -64,7 +64,7 @@ const HeroSection = () => {
           </span>
           <p className="mb-5">{t.home.card2Desc}</p>
           <Link
-            href="/al-billet"
+            href="/products/al-billet"
             className="text-[#972119] flex justify-end items-end"
           >
             {t.home.btnMore}{" "}
@@ -83,7 +83,7 @@ const HeroSection = () => {
           </span>
           <p className="mb-5">{t.home.card3Desc}</p>
           <Link
-            href="/al-ingot"
+            href="/products/al-ingot"
             className="text-[#972119] flex justify-end items-end text-end"
           >
             {t.home.btnMore}{" "}
@@ -102,7 +102,7 @@ const HeroSection = () => {
           </span>
           <p className="mb-5">{t.home.card4Desc}</p>
           <Link
-            href="/alhemisphere"
+            href="/products/alhemisphere"
             className="text-[#972119] flex justify-end text-end"
           >
             {t.home.btnMore}{" "}

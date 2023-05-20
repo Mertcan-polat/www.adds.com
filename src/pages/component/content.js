@@ -33,9 +33,9 @@ const content = () => {
         src={Header}
         alt="Picture of the author"
         height={832}
-        className="w-full z-0 relative"
+        className="md:w-full w-auto md:h-auto h-[550px]"
       />
-      <div className="absolute top-[10%] md:top-[22%] lg:top-[40%] ml-12">
+      <div className="absolute top-[20%] md:top-[22%] lg:top-[40%] ml-12">
         <h1 className="font-bold md:text-xl text-black lg:text-2xl mt-3">
           {t.home.description}{" "}
         </h1>

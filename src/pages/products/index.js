@@ -41,7 +41,7 @@ const index = () => {
         <Image
           src={Magnesiyum}
           alt="Picture of the author"
-          className="w-full"
+          className="md:w-full w-auto md:h-auto h-[235px]"
         />
         <div class="absolute md:flex md:justify-around flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-[#972119] opacity-70 w-auto">
           <Link

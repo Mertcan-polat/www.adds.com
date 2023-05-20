@@ -37,8 +37,15 @@ const index = () => {
       <Navbar />
 
       <div className="relative">
-        <Image src={Kurulsal} alt="Picture of the author" className="w-full" />
-        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-auto">
+        <div className="aspect-w-16 aspect-h-9">
+          {" "}
+          <Image
+            src={Kurulsal}
+            alt="Picture of the author"
+            className="md:w-full w-auto md:h-auto h-[235px]"
+          />
+        </div>
+        <div class="absolute md:flex md:justify-between flex flex-row bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70 w-full">
           <Link
             href="/about"
             className={`${isActivePage("/about")} mx-auto md:mx-0 pl-3`}

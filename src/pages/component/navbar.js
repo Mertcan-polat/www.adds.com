@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/router";
-import Logo from "../images/logo.svg";
+import Logo from "../images/addslogo.png";
 import Eng from "../images/eng.webp";
 import Tr from "../images/tr.png";
 import Du from "../images/du.png";
@@ -36,6 +36,24 @@ const navbar = () => {
     router.push("/", "/", { locale });
     setDefaultLocale(locale);
   };
+
+  const [loading, setLoading] = useState(false);
+  let [color] = useState("#212A3E");
+
+  const override = {
+    display: "block",
+    margin: "0 auto",
+    borderColor: "red",
+    marginTop: "450px",
+    height: "full",
+  };
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 750);
+  }, [router]);
 
   const { locale, locales } = router;
 
@@ -94,9 +112,7 @@ const navbar = () => {
           <Image
             src={Logo}
             alt="Picture of the author"
-            width={125}
-            height={75}
-            className="cursor-pointer"
+            className="cursor-pointer w-20 h-20"
           />
         </Link>
       </div>
@@ -110,7 +126,9 @@ const navbar = () => {
             duration={500}
           >
             <span
-              className={` ${router.pathname === "/" ? "text-zinc-600" : ""}`}
+              className={` ${
+                router.pathname === "/" ? "text-zinc-600 dark:text-white" : ""
+              }`}
             >
               {t.home.title1}
             </span>
@@ -125,7 +143,9 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/about" ? "text-zinc-600" : ""
+                router.pathname === "/about"
+                  ? "text-zinc-600 dark:text-white"
+                  : ""
               }`}
             >
               {" "}
@@ -142,7 +162,9 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/products" ? "text-zinc-600" : ""
+                router.pathname === "/products"
+                  ? "text-zinc-600 dark:text-white"
+                  : ""
               }`}
             >
               {t.home.title3}
@@ -158,7 +180,9 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/sertificates" ? "text-zinc-600" : ""
+                router.pathname === "/sertificates"
+                  ? "text-zinc-600 dark:text-white"
+                  : ""
               }`}
             >
               {t.home.title4}
@@ -174,7 +198,9 @@ const navbar = () => {
           >
             <span
               className={` ${
-                router.pathname === "/contact" ? "text-zinc-600" : ""
+                router.pathname === "/contact"
+                  ? "text-zinc-600 dark:text-white"
+                  : ""
               }`}
             >
               {t.home.title5}
@@ -199,11 +225,46 @@ const navbar = () => {
         >
           <Image
             src={Logo}
-            className="mt-44"
+            className="mb-10 w-28 ml-5 h-28"
             alt="Picture of the author"
-            width={125}
-            height={75}
           />
+          {nav && (
+            <div className="relative">
+              <div className="flex cursor-pointer  rounded-full p-1">
+                <span className="mb-3">{themeChange()}</span>
+                <Image
+                  src={Tr}
+                  alt="Turkish Flag"
+                  onClick={() => changeLanguage("tr")}
+                  className="w-8 h-8 mr-1 rounded-full"
+                />
+                <Image
+                  src={Eng}
+                  alt="English Flag"
+                  onClick={() => changeLanguage("en")}
+                  className="w-8 h-8 mr-1 rounded-full"
+                />
+                <Image
+                  src={Du}
+                  alt="English Flag"
+                  onClick={() => changeLanguage("de")}
+                  className="w-8 h-8 mr-1 rounded-full"
+                />{" "}
+                <Image
+                  src={It}
+                  alt="English Flag"
+                  onClick={() => changeLanguage("it")}
+                  className="w-8 h-8 mr-1 rounded-full"
+                />{" "}
+                <Image
+                  src={Nl}
+                  alt="English Flag"
+                  onClick={() => changeLanguage("nl")}
+                  className="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          )}
           <li className="py-1 text-xl mt-10">
             <Link href="/" smooth={true} duration={500}>
               {t.home.title1}
@@ -229,13 +290,13 @@ const navbar = () => {
                   {t.home.title2}
                 </Link>
                 <Link href="/about/misyon" className="text-sm text-gray-500">
-                  {t.home.title3}
+                  {t.home.subTitle1}
                 </Link>
                 {/* <Link href="/referans" className="text-sm text-gray-500">
                   {t.home.title4}
                 </Link> */}
                 <Link href="/about/bth" className="text-sm text-gray-500">
-                  {t.home.title5}
+                  {t.home.subTitle3}
                 </Link>
               </div>
             </div>

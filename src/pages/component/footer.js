@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../images/logo.svg";
+import Logo from "../images/addslogo.png";
 import Vector from "../images/Vector.svg";
 import Phone from "../images/phone.svg";
 import HomeIc from "../images/HomeIc.svg";
@@ -44,7 +44,7 @@ const footer = () => {
             />
           </div>
           <div class="mx-auto w-200">
-            <h2 class="mb-5 text-md font-semibold text-gray-900 uppercase">
+            <h2 class="mb-5 text-md font-semibold uppercase">
               {t.home.title2}
             </h2>
             <ul class="text-gray-500 font-medium">
@@ -71,7 +71,7 @@ const footer = () => {
             </ul>
           </div>
           <div class="mx-auto w-200">
-            <h2 class="mb-5 text-md font-semibold text-gray-900 uppercase">
+            <h2 class="mb-5 text-md font-semibold uppercase">
               {t.home.title3}
             </h2>
             <ul class="text-gray-500 font-medium">
@@ -98,9 +98,7 @@ const footer = () => {
             </ul>
           </div>
           <div class="mx-auto w-200">
-            <h2 class="mb-5 text-md font-bold text-gray-900 uppercase">
-              {t.home.subTitle6}
-            </h2>
+            <h2 class="mb-5 text-md font-bold uppercase">{t.home.subTitle6}</h2>
             <ul class="text-gray-500 font-small">
               <li class="mb-4">
                 <a

@@ -1,0 +1,7 @@
+.container {
+  background-color: #ffffff; /* Arka plan rengini beyaz olarak ayarla */
+  min-height: 100vh; /* Sayfa boyunca uzanan bir yükseklik belirle */
+  display: flex; /* İçeriği yatayda hizala */
+  justify-content: center; /* İçeriği yatayda ortala */
+  align-items: center; /* İçeriği dikeyde ortala */
+}
